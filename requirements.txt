@@ -1,0 +1,7 @@
+langchain==0.3.30
+langchain-groq==0.2.5
+langchain-community==0.3.30
+pandas
+requests
+python-dotenv
+tavily-python
