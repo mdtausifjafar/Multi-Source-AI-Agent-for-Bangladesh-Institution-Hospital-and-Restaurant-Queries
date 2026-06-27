@@ -76,36 +76,49 @@ Below are the exact queries I executed inside the `agent.ipynb` notebook along w
 
 ### Demo 1 - Institutions Database
 
-- **Query**: How many madrashas are there in Sylhet division?
-  **Answer**: There are 400 madrashas in Sylhet division.
-- **Query**: Which district has the most government colleges?
-  **Answer**: Dhaka district has the most government colleges.
+**Query**: How many madrashas are there in Sylhet division?
+
+**Answer**: There are 400 madrashas in Sylhet division.
+
+**Query**: Which district has the most government colleges?
+
+**Answer**: Dhaka district has the most government colleges.
 
 ### Demo 2 - Hospitals Database
 
-- **Query**: How many private hospitals are in Dhaka?
-  **Answer**: There are 5684 private hospitals in Dhaka.
-- **Query**: List private hospitals in Chattogram.
-  **Answer**: There are several private hospitals in Chattogram, including BGC Trust Medical College, Central Medical College, and Chottagram Ma O Shishu Medical College, among others. Additionally, there are various NGO hospitals and clinics in the division, such as those operated by BRAC (BHP) in different upazilas of Brahmanbaria district.
+**Query**: How many private hospitals are in Dhaka?
+
+**Answer**: There are 5684 private hospitals in Dhaka.
+
+**Query**: List private hospitals in Chattogram.
+
+**Answer**: There are several private hospitals in Chattogram, including BGC Trust Medical College, Central Medical College, and Chottagram Ma O Shishu Medical College, among others. Additionally, there are various NGO hospitals and clinics in the division, such as those operated by BRAC (BHP) in different upazilas of Brahmanbaria district.
 
 ### Demo 3 - Restaurants Database
 
-- **Query**: What are the top 3 highest rated restaurants in Dhaka?
-  **Answer**: The top 3 highest rated restaurants in Dhaka are শুভ এন্টারপ্রাইজ অলটাইম ডিলার, ভাত ঘর, and আপন নিবাস, all with a perfect 5.0 rating.
-- **Query**: Which restaurant in Chattogram has the most reviews?
-  **Answer**: The restaurant with the most reviews in Chattogram is Hotel Noorjahan, with 17,655 reviews.
+**Query**: What are the top 3 highest rated restaurants in Dhaka?
+
+**Answer**: The top 3 highest rated restaurants in Dhaka are শুভ এন্টারপ্রাইজ অলটাইম ডিলার, ভাত ঘর, and আপন নিবাস, all with a perfect 5.0 rating.
+
+**Query**: Which restaurant in Chattogram has the most reviews?
+
+**Answer**: The restaurant with the most reviews in Chattogram is Hotel Noorjahan, with 17,655 reviews.
 
 ### Demo 4 - Web Search Tool
 
-- **Query**: What is the current education policy for primary schools in Bangladesh?
-  **Answer**: The current education policy for primary schools in Bangladesh is that primary education will be universal, compulsory, free, and of uniform quality for all. The Ministry of Primary and Mass Education implements policies for primary education, and education in Bangladesh is compulsory for all citizens until the end of primary school. The government has also extended free primary school education up to grade eight, in line with the National Education Policy.
-- **Query**: What is the national healthcare budget of Bangladesh in 2024?
-  **Answer**: The national healthcare budget of Bangladesh in 2024 is BDT 419 billion, which is approximately 5.19% of the proposed national budget.
+**Query**: What is the current education policy for primary schools in Bangladesh?
+
+**Answer**: The current education policy for primary schools in Bangladesh is that primary education will be universal, compulsory, free, and of uniform quality for all. The Ministry of Primary and Mass Education implements policies for primary education, and education in Bangladesh is compulsory for all citizens until the end of primary school. The government has also extended free primary school education up to grade eight, in line with the National Education Policy.
+
+**Query**: What is the national healthcare budget of Bangladesh in 2024?
+
+**Answer**: The national healthcare budget of Bangladesh in 2024 is BDT 419 billion, which is approximately 5.19% of the proposed national budget.
 
 ### Demo 5 - Multi-Tool Routing
 
-- **Query**: How many hospitals are in Cox's Bazar, and what kind of tourists visit the area?
-  **Answer**: There are numerous hospitals and health centers in Cox's Bazar, including the Cox's Bazar 250 Bed District Sadar Hospital, Cox's Bazar Chest Disease Clinic, and several Upazila Health Complexes such as Chakaria, Kutubdia, Moheshkhali, and Pekua. Additionally, there are many Union Health Sub Centers throughout the district, providing healthcare services to local communities. Cox's Bazar is a popular tourist destination in Bangladesh, known for its natural beauty, including the world's longest natural sea beach, and various attractions such as Himchori, Kutubdia Lighthouse, Safari park, Moheshkhali Island, and St. Martin Island. The area attracts tourists who come to enjoy the scenic beauty, relax on the beach, and explore the local culture.
+**Query**: How many hospitals are in Cox's Bazar, and what kind of tourists visit the area?
+
+**Answer**: There are numerous hospitals and health centers in Cox's Bazar, including the Cox's Bazar 250 Bed District Sadar Hospital, Cox's Bazar Chest Disease Clinic, and several Upazila Health Complexes such as Chakaria, Kutubdia, Moheshkhali, and Pekua. Additionally, there are many Union Health Sub Centers throughout the district, providing healthcare services to local communities. Cox's Bazar is a popular tourist destination in Bangladesh, known for its natural beauty, including the world's longest natural sea beach, and various attractions such as Himchori, Kutubdia Lighthouse, Safari park, Moheshkhali Island, and St. Martin Island. The area attracts tourists who come to enjoy the scenic beauty, relax on the beach, and explore the local culture.
 
 ---
 
@@ -172,9 +185,9 @@ python build_databases.py
 
 Verify that `institutions.db`, `hospitals.db`, and `restaurants.db` have been successfully created inside the `data` directory.
 
-### 5. Running the Notebook
+### 5. Run the Notebook
 
-Open VS Code, navigate to `agent.ipynb`, select the virtual environment `venv` as your kernel, and run the cells.
+Open `agent.ipynb` in VS Code or Jupyter Notebook and run the cells.
 
 ---
 
