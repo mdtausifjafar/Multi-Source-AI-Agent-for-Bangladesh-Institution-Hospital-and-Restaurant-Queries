@@ -78,9 +78,13 @@ Below are the exact queries I executed inside the `agent.ipynb` notebook along w
 
 **Query**: How many madrashas are there in Sylhet division?
 
+**Tool Used**: `InstitutionsDBTool`
+
 **Answer**: There are 400 madrashas in Sylhet division.
 
 **Query**: Which district has the most government colleges?
+
+**Tool Used**: `InstitutionsDBTool`
 
 **Answer**: Dhaka district has the most government colleges.
 
@@ -88,9 +92,13 @@ Below are the exact queries I executed inside the `agent.ipynb` notebook along w
 
 **Query**: How many private hospitals are in Dhaka?
 
+**Tool Used**: `HospitalsDBTool`
+
 **Answer**: There are 5684 private hospitals in Dhaka.
 
 **Query**: List private hospitals in Chattogram.
+
+**Tool Used**: `HospitalsDBTool`
 
 **Answer**: There are several private hospitals in Chattogram, including BGC Trust Medical College, Central Medical College, and Chottagram Ma O Shishu Medical College, among others. Additionally, there are various NGO hospitals and clinics in the division, such as those operated by BRAC (BHP) in different upazilas of Brahmanbaria district.
 
@@ -98,9 +106,13 @@ Below are the exact queries I executed inside the `agent.ipynb` notebook along w
 
 **Query**: What are the top 3 highest rated restaurants in Dhaka?
 
+**Tool Used**: `RestaurantsDBTool`
+
 **Answer**: The top 3 highest rated restaurants in Dhaka are শুভ এন্টারপ্রাইজ অলটাইম ডিলার, ভাত ঘর, and আপন নিবাস, all with a perfect 5.0 rating.
 
 **Query**: Which restaurant in Chattogram has the most reviews?
+
+**Tool Used**: `RestaurantsDBTool`
 
 **Answer**: The restaurant with the most reviews in Chattogram is Hotel Noorjahan, with 17,655 reviews.
 
@@ -108,15 +120,21 @@ Below are the exact queries I executed inside the `agent.ipynb` notebook along w
 
 **Query**: What is the current education policy for primary schools in Bangladesh?
 
+**Tool Used**: `WebSearchTool`
+
 **Answer**: The current education policy for primary schools in Bangladesh is that primary education will be universal, compulsory, free, and of uniform quality for all. The Ministry of Primary and Mass Education implements policies for primary education, and education in Bangladesh is compulsory for all citizens until the end of primary school. The government has also extended free primary school education up to grade eight, in line with the National Education Policy.
 
 **Query**: What is the national healthcare budget of Bangladesh in 2024?
+
+**Tool Used**: `WebSearchTool`
 
 **Answer**: The national healthcare budget of Bangladesh in 2024 is BDT 419 billion, which is approximately 5.19% of the proposed national budget.
 
 ### Demo 5 - Multi-Tool Routing
 
 **Query**: How many hospitals are in Cox's Bazar, and what kind of tourists visit the area?
+
+**Tool Used**: `HospitalsDBTool` and `WebSearchTool`
 
 **Answer**: There are numerous hospitals and health centers in Cox's Bazar, including the Cox's Bazar 250 Bed District Sadar Hospital, Cox's Bazar Chest Disease Clinic, and several Upazila Health Complexes such as Chakaria, Kutubdia, Moheshkhali, and Pekua. Additionally, there are many Union Health Sub Centers throughout the district, providing healthcare services to local communities. Cox's Bazar is a popular tourist destination in Bangladesh, known for its natural beauty, including the world's longest natural sea beach, and various attractions such as Himchori, Kutubdia Lighthouse, Safari park, Moheshkhali Island, and St. Martin Island. The area attracts tourists who come to enjoy the scenic beauty, relax on the beach, and explore the local culture.
 
@@ -195,3 +213,4 @@ Open `agent.ipynb` in VS Code or Jupyter Notebook and run the cells.
 
 * **Md. Tausif Jafar**
 * **Email:** mdtausifjafar@gmail.com
+
